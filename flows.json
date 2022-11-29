@@ -1,0 +1,2648 @@
+[
+    {
+        "id": "b646685d075b145d",
+        "type": "tab",
+        "label": "플로우 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "f0a27113.452c7",
+        "type": "tab",
+        "label": "WIFI Management",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "5510da89.49d884",
+        "type": "ui_group",
+        "name": "hidden_group",
+        "tab": "a8de93be.5753e",
+        "order": 1,
+        "disp": false,
+        "width": 3,
+        "collapse": false
+    },
+    {
+        "id": "354ce296.41d33e",
+        "type": "ui_group",
+        "name": "Air Quality ",
+        "tab": "8a32b6f0.6ecf68",
+        "order": 2,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5c7cc43a437451d7",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "92e09b07a5c896e5",
+        "order": 1,
+        "disp": false,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f5c5fbae.5dd958",
+        "type": "ui_group",
+        "name": "Device Information",
+        "tab": "8a32b6f0.6ecf68",
+        "order": 1,
+        "disp": true,
+        "width": 9,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6f3a7bf98a375ff5",
+        "type": "ui_group",
+        "name": "API Data Location",
+        "tab": "8a32b6f0.6ecf68",
+        "order": 3,
+        "disp": true,
+        "width": 9,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fd1bb60932fc54a4",
+        "type": "mqtt-broker",
+        "name": "Test",
+        "broker": "223.171.143.223",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "a8de93be.5753e",
+        "type": "ui_tab",
+        "name": "Zooland Sys",
+        "icon": "home",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8a32b6f0.6ecf68",
+        "type": "ui_tab",
+        "name": "Dashboard - IAQ",
+        "icon": "blur_on",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "92e09b07a5c896e5",
+        "type": "ui_tab",
+        "name": "Setup",
+        "icon": "phonelink_setup",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "1f253b58264f8228",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 44,
+                "sy": 50,
+                "gx": 6,
+                "gy": 6,
+                "cx": 3,
+                "cy": 3,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "9befcd9a829eb9e7",
+        "type": "serial-port",
+        "serialport": "/dev/ttyAMA0",
+        "serialbaud": "115200",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "4d0f060d.dee7e8",
+        "type": "ui_group",
+        "name": "Update",
+        "tab": "907bbe60.b555f",
+        "order": 2,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "a1e7431b.229d5",
+        "type": "ui_group",
+        "name": "Settings",
+        "tab": "907bbe60.b555f",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "907bbe60.b555f",
+        "type": "ui_tab",
+        "name": "Wifi",
+        "icon": "wifi",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "efe24070ca9aa1bf",
+        "type": "ui_spacer",
+        "z": "f0a27113.452c7",
+        "name": "spacer",
+        "group": "a1e7431b.229d5",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "fdb5136b7b293063",
+        "type": "ui_spacer",
+        "z": "b646685d075b145d",
+        "name": "spacer",
+        "group": "6f3a7bf98a375ff5",
+        "order": 3,
+        "width": "3",
+        "height": "1"
+    },
+    {
+        "id": "05dba175019e2925",
+        "type": "ui_template",
+        "z": "b646685d075b145d",
+        "group": "5510da89.49d884",
+        "name": "Clock Toolbar",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<script id=\"titleScript\" type=\"text/javascript\">\n\n$(function() {\n    if($('.md-toolbar-tools').length != 0){\n        loadClock();\n    }else setTimeout(loadClock, 500)\n});\n\nfunction loadClock(){\n    $('#clock').remove();\n    var toolbar = $('.md-toolbar-tools');\n    \n    var div = $('<div/>');\n    var p = $('<p/ id=\"clock\">');\n    \n    div.append(p);\n    div[0].style.margin = '5px 5px 5px auto';\n    toolbar.append(div);\n\n    function displayTitle(lh) {\n        p.text(lh); \n    }\n    \n    function upTime() {\n        var d = new Date();\n        p.text(d.toLocaleString());\n    }\n\n    if(document.clockInterval){ \n            clearInterval(document.clockInterval);\n            document.clockInterval = null;\n    }\n        \n    document.clockInterval = setInterval(upTime,1000);\n}\n\n</script>",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "templateScope": "global",
+        "x": 180,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fee054d8b6a115c7",
+        "type": "ui_text",
+        "z": "b646685d075b145d",
+        "group": "354ce296.41d33e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "PM 1.0",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1880,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "8c7e8efa308bcc30",
+        "type": "ui_text",
+        "z": "b646685d075b145d",
+        "group": "354ce296.41d33e",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "PM 2.5",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1880,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "b3054f3cfd2dc84c",
+        "type": "ui_text",
+        "z": "b646685d075b145d",
+        "group": "354ce296.41d33e",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "PM 10",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1870,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "eff6e2c3b7da06e9",
+        "type": "ui_text",
+        "z": "b646685d075b145d",
+        "group": "354ce296.41d33e",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "온 도",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1870,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "6b0813d460383e05",
+        "type": "ui_text",
+        "z": "b646685d075b145d",
+        "group": "354ce296.41d33e",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "습 도",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1870,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "0a14e2e456c64765",
+        "type": "function",
+        "z": "b646685d075b145d",
+        "name": "PM1.0_upstream",
+        "func": "var pm1d0 = flow.get('pm1d0')||0;\n\n\nmsg.payload = pm1d0 /10 + ' μg/m³';\n\n\nflow.set('pm1d0',0);\n\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1630,
+        "y": 180,
+        "wires": [
+            [
+                "fee054d8b6a115c7",
+                "a98c7dd21140bc2d"
+            ]
+        ]
+    },
+    {
+        "id": "e1d4a2e11313cd0f",
+        "type": "function",
+        "z": "b646685d075b145d",
+        "name": "PM2.5_upstream",
+        "func": "var pm2d5 = flow.get('pm2d5')||0;\n\n\nmsg.payload = pm2d5/10;\n\n\nflow.set('pm2d5',0);\n\n\n\nif (msg.payload < 16) {\n    msg.color = '#0055ff';\n} else if (msg.payload < 36){\n    msg.color = '#00ff0d';\n} else if (msg.payload < 76){\n    msg.color = '#ffbb00';\n} else {\n    msg.color = '#ff0000';    \n}\n\nmsg.payload = msg.payload + ' μg/m³';\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1630,
+        "y": 220,
+        "wires": [
+            [
+                "8c7e8efa308bcc30"
+            ]
+        ]
+    },
+    {
+        "id": "a347885b025f5d6d",
+        "type": "function",
+        "z": "b646685d075b145d",
+        "name": "PM10_upstream",
+        "func": "var pm10 = flow.get('pm10')||0;\n\n\nmsg.payload = pm10/10;\n\n\nflow.set('pm10',0);\n\n\nif (msg.payload < 31) {\n    msg.color = '#0055ff';\n} else if (msg.payload < 81){\n    msg.color = '#00ff0d';\n} else if (msg.payload < 151){\n    msg.color = '#ffbb00';\n} else {\n    msg.color = '#ff0000';    \n}\n\nmsg.payload = msg.payload + ' μg/m³';\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1620,
+        "y": 260,
+        "wires": [
+            [
+                "b3054f3cfd2dc84c"
+            ]
+        ]
+    },
+    {
+        "id": "e21710747c9fb363",
+        "type": "function",
+        "z": "b646685d075b145d",
+        "name": "Temperature_upstream",
+        "func": "var temp = flow.get('temp')||0;\n\nmsg.payload = temp/10 + ' ℃';\n\n\nflow.set('temp',0);\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1650,
+        "y": 340,
+        "wires": [
+            [
+                "eff6e2c3b7da06e9"
+            ]
+        ]
+    },
+    {
+        "id": "eec33aad480d8e32",
+        "type": "function",
+        "z": "b646685d075b145d",
+        "name": "Humidity_upstream",
+        "func": "var humi = flow.get('humi')||0;\n\n\n\nmsg.payload = (humi/10 + ' %');\n\n\nflow.set('humi',0);\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1630,
+        "y": 380,
+        "wires": [
+            [
+                "6b0813d460383e05"
+            ]
+        ]
+    },
+    {
+        "id": "4b748d52b7fde3da",
+        "type": "function",
+        "z": "b646685d075b145d",
+        "name": "Check Value",
+        "func": "var no1_check = flow.get('no1_check')||0;\n\nflow.set('pm1d0', msg.payload[0]);\nflow.set('pm2d5', msg.payload[1]);\nflow.set('pm10', msg.payload[2]);\nflow.set('temp', msg.payload[4]);\nflow.set('humi', msg.payload[5]);\nflow.set('co2', msg.payload[3]);\n\n\n\nvar pm1d0 = flow.get('pm1d0')||0\nvar pm2d5 = flow.get('pm2d5')||0\nvar pm10 = flow.get('pm10') || 0\nvar co2 = flow.get('co2') || 0\nvar temp = flow.get('temp')||0\nvar humi = flow.get('humi')||0\n\n\n\n\nif(pm1d0 * pm2d5 * pm10 * temp * humi === 0){\n    no1_check = 0;\n    flow.set('no1_check', no1_check);\n} else {\n    no1_check = 1;\n    flow.set('no1_check', no1_check);\n}\n\nreturn msg\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1410,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "961a8315519dd71e",
+        "type": "function",
+        "z": "b646685d075b145d",
+        "name": "Error Check",
+        "func": "var no1_check = flow.get('no1_check')||0;\nmsg.no1_check = no1_check;\nflow.set('no1_msg',no1_check);\nflow.set('no1_check', 0);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1410,
+        "y": 180,
+        "wires": [
+            [
+                "0a14e2e456c64765",
+                "e1d4a2e11313cd0f",
+                "a347885b025f5d6d",
+                "e21710747c9fb363",
+                "eec33aad480d8e32",
+                "17bc245bb3930fe8"
+            ]
+        ]
+    },
+    {
+        "id": "fdaea21529acee26",
+        "type": "http request",
+        "z": "b646685d075b145d",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 650,
+        "y": 1060,
+        "wires": [
+            [
+                "a8c99962d95a82e0"
+            ]
+        ]
+    },
+    {
+        "id": "c9a6d3192766571e",
+        "type": "inject",
+        "z": "b646685d075b145d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 270,
+        "y": 1060,
+        "wires": [
+            [
+                "f04181b638fbdf8d"
+            ]
+        ]
+    },
+    {
+        "id": "f04181b638fbdf8d",
+        "type": "function",
+        "z": "b646685d075b145d",
+        "name": "측정소 정보",
+        "func": "var station = flow.get('station')\nmsg.url = \"http://apis.data.go.kr/B552584/ArpltnInforInqireSvc/getMsrstnAcctoRltmMesureDnsty?stationName=\"+station+\"&ver=1.0&dataTerm=month&pageNo=1&numOfRows=1&returnType=json&serviceKey=1GmerWGA%2BmwVvL2JVuiStF3Cud%2FiK5%2BXtOOyLJfbEUfjV8CdBdS5uqW3Y0LvDVuooZGsNnJqNJmOnFDFcnHICw%3D%3D\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 1060,
+        "wires": [
+            [
+                "fdaea21529acee26"
+            ]
+        ]
+    },
+    {
+        "id": "a8c99962d95a82e0",
+        "type": "function",
+        "z": "b646685d075b145d",
+        "name": "function 2",
+        "func": "var pm25realtime = msg.payload.response.body.items[0].pm25Value;\nmsg.payload = pm25realtime;\nflow.set('awpm2d5', Number(pm25realtime));\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 1060,
+        "wires": [
+            [
+                "3c0a242f66f90793"
+            ]
+        ]
+    },
+    {
+        "id": "041826782dc78a7b",
+        "type": "ui_dropdown",
+        "z": "b646685d075b145d",
+        "name": "",
+        "label": "지역명",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "5c7cc43a437451d7",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "서울",
+                "value": "1",
+                "type": "str"
+            },
+            {
+                "label": "경기",
+                "value": "2",
+                "type": "str"
+            },
+            {
+                "label": "인천",
+                "value": "3",
+                "type": "str"
+            },
+            {
+                "label": "강원",
+                "value": "4",
+                "type": "str"
+            },
+            {
+                "label": "충남",
+                "value": "5",
+                "type": "str"
+            },
+            {
+                "label": "대전",
+                "value": "6",
+                "type": "str"
+            },
+            {
+                "label": "충북",
+                "value": "7",
+                "type": "str"
+            },
+            {
+                "label": "세종",
+                "value": "8",
+                "type": "str"
+            },
+            {
+                "label": "부산",
+                "value": "9",
+                "type": "str"
+            },
+            {
+                "label": "울산",
+                "value": "10",
+                "type": "str"
+            },
+            {
+                "label": "대구",
+                "value": "11",
+                "type": "str"
+            },
+            {
+                "label": "경북",
+                "value": "12",
+                "type": "str"
+            },
+            {
+                "label": "경남",
+                "value": "13",
+                "type": "str"
+            },
+            {
+                "label": "전남",
+                "value": "14",
+                "type": "str"
+            },
+            {
+                "label": "광주",
+                "value": "15",
+                "type": "str"
+            },
+            {
+                "label": "전북",
+                "value": "16",
+                "type": "str"
+            },
+            {
+                "label": "제주",
+                "value": "17",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 490,
+        "y": 860,
+        "wires": [
+            [
+                "9291a123742ebc6c",
+                "0873b3dfe2fcb179"
+            ]
+        ]
+    },
+    {
+        "id": "9291a123742ebc6c",
+        "type": "function",
+        "z": "b646685d075b145d",
+        "name": "Set the Region",
+        "func": "var gct1 = [\"강남구\", \"강동구\", \"강북구\", \"강서구\", \"관악구\", \"광진구\", \"구로구\", \"금천구\", \"노원구\", \"도봉구\", \"동대문구\", \"동작구\", \"마포구\", \"서대문구\", \"서초구\", \"성동구\", \"성북구\", \"송파구\", \"양천구\", \"영등포구\", \"용산구\", \"은평구\", \"종로구\", \"중구\", \"중랑구\"];\nvar gct2 = [\"가남읍\", \"가평\", \"경안동\", \"고덕면\", \"고색동\", \"고읍\", \"고잔동\", \"고천동\", \"고촌읍\", \"곤지암\", \"공도읍\", \"과천동\", \"광교동\", \"교문동\", \"금곡동\", \"금촌동\", \"기흥\", \"김량장동\", \"남양읍\", \"내동\", \"단대동\", \"당동\", \"대부동\", \"대신면\", \"대야동\", \"동구동\", \"동탄\", \"모현읍\", \"목감동\", \"미사\", \"배곧동\", \"백석읍\", \"백암면\", \"별내동\", \"별양동\", \"보산동\", \"복정동\", \"본오동\", \"봉담읍\", \"봉산동\", \"부곡3동\", \"부곡동1\", \"부림동\", \"부발읍\", \"비전동\", \"사우동\", \"산본동\", \"상대원동\", \"새솔동\", \"서신면\", \"선단동\", \"설악면\", \"소사본동\", \"소하동\", \"송북동\", \"송산3동\", \"수내동\", \"수지\", \"시화산단\", \"식사동\", \"신원동\", \"신장동\", \"신풍동\", \"안양2동\", \"안양8동\", \"안중\", \"양평읍\", \"연천\", \"영통동\", \"오남읍\", \"오산동\", \"오정동\", \"오포읍\", \"와부읍\", \"용문면\", \"우정읍\", \"운정\", \"운중동\", \"원곡동\", \"원시동\", \"월곶면\", \"의정부1동\", \"의정부동\", \"이동읍\", \"인계동\", \"일동면\", \"장현동\", \"장호원읍\", \"전곡\", \"정왕동\", \"정자동\", \"주엽동\", \"죽산면\", \"중2동\", \"중앙동(경기)\", \"진접읍\", \"창전동\", \"천천동\", \"철산동\", \"청계동\", \"청북읍\", \"파주읍\", \"평택항\", \"한강신도시\", \"행신동\", \"향남읍\", \"호계동\", \"호매실\", \"호수동\", \"화도읍\"];\nvar gct3 = [\"검단\", \"계산\", \"고잔\", \"구월동\", \"길상\", \"논현\", \"동춘\", \"부평\", \"삼산\", \"서창\", \"석남\", \"송도\", \"송림\", \"송해\", \"숭의\", \"신흥\", \"아암\", \"연희\", \"영종\", \"영흥\", \"운서\", \"원당\", \"주안\", \"청라\", \"효성\"];\nvar gct4 = [\"갈말읍\", \"금호동\", \"남양동1\", \"문막읍\", \"반곡동(명륜동)\", \"상리\", \"석사동\", \"신사우동\", \"양구읍\", \"양양읍\", \"영월읍\", \"옥천동\", \"인제읍\", \"정선읍\", \"주문진읍\", \"중앙동(강원)\", \"중앙로\", \"지정면\", \"천곡동\", \"평창읍\", \"홍천읍\", \"화천읍\", \"황지동\", \"횡성읍\"];\nvar gct5 = [\"공주\", \"금산읍\", \"내포\", \"논산\", \"당진시청사\", \"대산리\", \"대천2동\", \"도고면\", \"독곶리\", \"동문동\", \"둔포면\", \"모종동\", \"배방읍\", \"백석동\", \"부여읍\", \"삽교읍\", \"서면\", \"서천읍\", \"성거읍\", \"성동면\", \"성연면\", \"성황동\", \"송산면\", \"송악면\", \"신방동\", \"엄사면\", \"연무읍\", \"예산군\", \"원북면\", \"이원면\", \"인주면\", \"장항읍\", \"정산면\", \"주교면\", \"청양읍\", \"탄천면\", \"태안읍\", \"합덕읍\", \"홍성읍\"];\nvar gct6 = [\"관평동\", \"구성동\", \"노은동\", \"대성동\", \"둔산동\", \"문창동\", \"문평동\", \"상대동(대전)\", \"성남동1\", \"읍내동\", \"정림동\"];\nvar gct7 = [\"가덕면\", \"감물면\", \"괴산읍\", \"단성면\", \"단양읍\", \"덕산읍\", \"도안면\", \"매포읍\", \"보은읍\", \"사천동\", \"산남동\", \"살미면\", \"소이면\", \"송정동(봉명동)\", \"영동읍\", \"영천동\", \"오송읍\", \"오창읍\", \"옥천읍\", \"용담동\", \"용암동\", \"음성읍\", \"장락동\", \"중앙탑면\", \"증평읍\", \"진천읍\", \"청풍면\", \"칠금동\", \"호암동\", \"황간면\"];\nvar gct8 = [\"부강면\", \"신흥동\", \"아름동\", \"한솔동\"];\nvar gct9 = [\"개금동\", \"광복동\", \"광안동\", \"기장읍\", \"녹산동\", \"당리동\", \"대신동\", \"대연동\", \"대저동\", \"덕천동\", \"덕포동\", \"명장동\", \"명지동\", \"부곡동\", \"수정동\", \"연산동\", \"용수리\", \"용호동\", \"장림동\", \"재송동\", \"전포동\", \"좌동\", \"청룡동\", \"청학동\", \"태종대\", \"학장동\", \"화명동\", \"회동동\"];\nvar gct10 = [\"농소동\", \"대송동\", \"덕신리\", \"무거동\", \"범서읍\", \"부곡동(울산)\", \"삼남읍\", \"삼산동\", \"상남리\", \"성남동\", \"송정동 대기오염측정소\", \"신정동\", \"야음동\", \"약사동\", \"여천동(울산)\", \"웅촌면\", \"전하동\", \"화산리\", \"효문동\"];\nvar gct11 = [\"남산1동\", \"내당동\", \"다사읍\", \"대명동\", \"만촌동\", \"본동\", \"산격동\", \"서호동\", \"수창동\", \"시지동\", \"신암동\", \"유가읍\", \"이현동\", \"지산동\", \"진천동\", \"침산동\", \"태전동\", \"호림동\", \"화원읍\"];\nvar gct12 = [\"3공단\", \"4공단\", \"가흥동\", \"공단동\", \"군위읍\", \"대가야읍\", \"대광동\", \"대도동\", \"대송면\", \"명륜동\", \"문경시\", \"보덕동\", \"봉화군청\", \"상주시\", \"석포면\", \"성건동\", \"성주군\", \"송도동\", \"안강읍\", \"안계면\", \"연일읍\", \"영덕읍\", \"영양군\", \"영주동\", \"영천시\", \"영해면\", \"예천군\", \"오천읍\", \"외동읍\", \"울릉읍\", \"울진군\", \"원평동\", \"율곡동\", \"의성읍\", \"장량동\", \"장흥동\", \"제철동\", \"중방동\", \"진량읍\", \"진미동\", \"청림동\", \"청송읍\", \"칠곡군\", \"평화남산동\", \"하양읍\", \"형곡동\", \"화양읍\"];\nvar gct13 = [\"가야읍\", \"거창읍\", \"경화동\", \"고성읍\", \"고현동\", \"금성면\", \"남해읍\", \"내서읍\", \"내일동\", \"대안동\", \"동상동\", \"명서동\", \"무전동\", \"물금읍\", \"봉암동\", \"북부동\", \"사천읍\", \"사파동\", \"산청읍\", \"삼방동\", \"삼호동\", \"상대동(진주)\", \"상봉동\", \"성주동\", \"아주동\", \"용지동\", \"웅남동\", \"월영동\", \"의령읍\", \"장유동\", \"정촌면\", \"진영읍\", \"창녕읍\", \"하동읍\", \"함양읍\", \"합천읍\", \"향촌동\", \"회원동\"];\nvar gct14 = [\"강진읍\", \"고흥읍\", \"곡성읍\", \"광양읍\", \"구례읍\", \"담양읍\", \"대불\", \"덕충동\", \"무안읍\", \"문수동\", \"벌교읍\", \"보성읍\", \"봉강면\", \"부흥동\", \"빛가람동\", \"삼일동\", \"서강동\", \"순천만\", \"신대\", \"신안군\", \"신지면\", \"여천동(여수)\", \"연향동\", \"영광읍\", \"영암읍\", \"용당동\", \"월내동\", \"율촌면\", \"장성읍\", \"장천동\", \"장흥읍\", \"중동(유해+중금속)\", \"진도읍\", \"태인동\", \"함평읍\", \"해남읍\", \"호두리\", \"화순읍\", \"화양면\"];\nvar gct15 = [\"건국동\", \"노대동\", \"농성동\", \"두암동\", \"서석동\", \"오선동\", \"우산동(광주)\", \"유촌동\", \"일곡동\", \"주월동\", \"평동\"];\nvar gct16 = [\"계화면\", \"고산면\", \"고창읍\", \"관촌면\", \"광활면\", \"구이면\", \"노송동\", \"모현동\", \"무주읍\", \"봉동읍\", \"부안읍\", \"비응도동\", \"사정동\", \"삼기면\", \"삼천동\", \"소룡동\", \"소룡동2\", \"송천동\", \"순창읍\", \"신태인\", \"신풍동(군산)\", \"심원면\", \"여산면\", \"여의동\", \"연지동\", \"영파동\", \"옥산면\", \"요촌동\", \"용동면\", \"운봉읍\", \"임실읍\", \"장수읍\", \"죽항동\", \"진안읍\", \"춘포면\", \"팔복동\", \"팔봉동\", \"함열읍\", \"혁신동\", \"효자동\"];\nvar gct17 = [\"강정동\", \"남원읍\", \"대정읍\", \"동홍동\", \"성산읍\", \"연동\", \"이도동\", \"조천읍\", \"한림읍\", \"화북동\"];\n\nvar temp = \"gct\" + msg.payload;\n\nif (msg.payload == 1) msg.options = gct1;\nif (msg.payload == 2) msg.options = gct2;\nif (msg.payload == 3) msg.options = gct3;\nif (msg.payload == 4) msg.options = gct4;\nif (msg.payload == 5) msg.options = gct5;\nif (msg.payload == 6) msg.options = gct6;\nif (msg.payload == 7) msg.options = gct7;\nif (msg.payload == 8) msg.options = gct8;\nif (msg.payload == 9) msg.options = gct9;\nif (msg.payload == 10) msg.options = gct10;\nif (msg.payload == 11) msg.options = gct11;\nif (msg.payload == 12) msg.options = gct12;\nif (msg.payload == 13) msg.options = gct13;\nif (msg.payload == 14) msg.options = gct14;\nif (msg.payload == 15) msg.options = gct15;\nif (msg.payload == 16) msg.options = gct16;\nif (msg.payload == 17) msg.options = gct17;\n\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 860,
+        "wires": [
+            [
+                "7f3b4d09f5f08efc"
+            ]
+        ]
+    },
+    {
+        "id": "7f3b4d09f5f08efc",
+        "type": "ui_dropdown",
+        "z": "b646685d075b145d",
+        "name": "",
+        "label": "측정소",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "5c7cc43a437451d7",
+        "order": 2,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 930,
+        "y": 860,
+        "wires": [
+            [
+                "2455844163232cd8"
+            ]
+        ]
+    },
+    {
+        "id": "bdd76b81d488811c",
+        "type": "file",
+        "z": "b646685d075b145d",
+        "name": "",
+        "filename": "/home/pi/region.txt",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1110,
+        "y": 940,
+        "wires": [
+            [
+                "22f10f115e4cee4c"
+            ]
+        ]
+    },
+    {
+        "id": "9aa4f65b0f587a88",
+        "type": "ui_text",
+        "z": "b646685d075b145d",
+        "group": "f5c5fbae.5dd958",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Device ID",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 900,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "add742ea837dec38",
+        "type": "ui_text_input",
+        "z": "b646685d075b145d",
+        "name": "",
+        "label": "Device ID Input",
+        "tooltip": "",
+        "group": "5c7cc43a437451d7",
+        "order": 5,
+        "width": 10,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 520,
+        "y": 740,
+        "wires": [
+            [
+                "94c4b1a722a7cfb9"
+            ]
+        ]
+    },
+    {
+        "id": "94c4b1a722a7cfb9",
+        "type": "file",
+        "z": "b646685d075b145d",
+        "name": "",
+        "filename": "/home/pi/deviceid.txt",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1120,
+        "y": 740,
+        "wires": [
+            [
+                "68c8072962701c76"
+            ]
+        ]
+    },
+    {
+        "id": "6967f38010a8aa74",
+        "type": "file in",
+        "z": "b646685d075b145d",
+        "name": "",
+        "filename": "/home/pi/deviceid.txt",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 460,
+        "y": 180,
+        "wires": [
+            [
+                "bce410be1cb07cca",
+                "6253094d73fa62e2"
+            ]
+        ]
+    },
+    {
+        "id": "58b705e2c080ce3b",
+        "type": "inject",
+        "z": "b646685d075b145d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 270,
+        "y": 180,
+        "wires": [
+            [
+                "6967f38010a8aa74"
+            ]
+        ]
+    },
+    {
+        "id": "68c8072962701c76",
+        "type": "link out",
+        "z": "b646685d075b145d",
+        "name": "link out 1",
+        "mode": "link",
+        "links": [
+            "3f22a7f1d224fde6"
+        ],
+        "x": 1255,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "3f22a7f1d224fde6",
+        "type": "link in",
+        "z": "b646685d075b145d",
+        "name": "link in 1",
+        "links": [
+            "68c8072962701c76"
+        ],
+        "x": 315,
+        "y": 220,
+        "wires": [
+            [
+                "6967f38010a8aa74"
+            ]
+        ]
+    },
+    {
+        "id": "8de6de3879aa1615",
+        "type": "inject",
+        "z": "b646685d075b145d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 270,
+        "y": 500,
+        "wires": [
+            [
+                "19aa62e6041336d5"
+            ]
+        ]
+    },
+    {
+        "id": "19aa62e6041336d5",
+        "type": "file in",
+        "z": "b646685d075b145d",
+        "name": "",
+        "filename": "/home/pi/region.txt",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 450,
+        "y": 500,
+        "wires": [
+            [
+                "77198659e9031424"
+            ]
+        ]
+    },
+    {
+        "id": "77198659e9031424",
+        "type": "ui_text",
+        "z": "b646685d075b145d",
+        "group": "6f3a7bf98a375ff5",
+        "order": 1,
+        "width": "3",
+        "height": "1",
+        "name": "",
+        "label": "지역",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 890,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "2455844163232cd8",
+        "type": "file",
+        "z": "b646685d075b145d",
+        "name": "",
+        "filename": "/home/pi/location.txt",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1120,
+        "y": 860,
+        "wires": [
+            [
+                "7d58e9041b699d47"
+            ]
+        ]
+    },
+    {
+        "id": "108b0788db298287",
+        "type": "inject",
+        "z": "b646685d075b145d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 270,
+        "y": 580,
+        "wires": [
+            [
+                "ecdb89652097da49"
+            ]
+        ]
+    },
+    {
+        "id": "ecdb89652097da49",
+        "type": "file in",
+        "z": "b646685d075b145d",
+        "name": "",
+        "filename": "/home/pi/location.txt",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 460,
+        "y": 580,
+        "wires": [
+            [
+                "f68fdb4276514d03"
+            ]
+        ]
+    },
+    {
+        "id": "79ce19a4dc7b3af3",
+        "type": "ui_text",
+        "z": "b646685d075b145d",
+        "group": "6f3a7bf98a375ff5",
+        "order": 2,
+        "width": "6",
+        "height": "1",
+        "name": "",
+        "label": "측정소",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 890,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "0873b3dfe2fcb179",
+        "type": "function",
+        "z": "b646685d075b145d",
+        "name": "Save the Region",
+        "func": "if (msg.payload == 1) msg.payload = \"서울\";\nif (msg.payload == 2) msg.payload = \"경기\";\nif (msg.payload == 3) msg.payload = \"인천\";\nif (msg.payload == 4) msg.payload = \"강원\";\nif (msg.payload == 5) msg.payload = \"충남\";\nif (msg.payload == 6) msg.payload = \"대전\";\nif (msg.payload == 7) msg.payload = \"충북\";\nif (msg.payload == 8) msg.payload = \"세종\";\nif (msg.payload == 9) msg.payload = \"부산\";\nif (msg.payload == 10) msg.payload = \"울산\";\nif (msg.payload == 11) msg.payload = \"대구\";\nif (msg.payload == 12) msg.payload = \"경북\";\nif (msg.payload == 13) msg.payload = \"경남\";\nif (msg.payload == 14) msg.payload = \"전남\";\nif (msg.payload == 15) msg.payload = \"광주\";\nif (msg.payload == 16) msg.payload = \"전남\";\nif (msg.payload == 17) msg.payload = \"제주\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 940,
+        "wires": [
+            [
+                "bdd76b81d488811c"
+            ]
+        ]
+    },
+    {
+        "id": "f7f14117967c99bd",
+        "type": "ui_dropdown",
+        "z": "b646685d075b145d",
+        "name": "",
+        "label": "Device Locaton",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "5c7cc43a437451d7",
+        "order": 3,
+        "width": 10,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "실외",
+                "value": "0",
+                "type": "str"
+            },
+            {
+                "label": "거실",
+                "value": "1",
+                "type": "str"
+            },
+            {
+                "label": "주방",
+                "value": "2",
+                "type": "str"
+            },
+            {
+                "label": "Room 1 (Main)",
+                "value": "3",
+                "type": "str"
+            },
+            {
+                "label": "Room 2",
+                "value": "4",
+                "type": "str"
+            },
+            {
+                "label": "Room 3",
+                "value": "5",
+                "type": "str"
+            },
+            {
+                "label": "다용도실",
+                "value": "6",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 520,
+        "y": 780,
+        "wires": [
+            [
+                "3ade56edab7bec73"
+            ]
+        ]
+    },
+    {
+        "id": "2de46ed27007df99",
+        "type": "file",
+        "z": "b646685d075b145d",
+        "name": "",
+        "filename": "/home/pi/room.txt",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1110,
+        "y": 780,
+        "wires": [
+            [
+                "6db8e5df309b7304"
+            ]
+        ]
+    },
+    {
+        "id": "3ade56edab7bec73",
+        "type": "function",
+        "z": "b646685d075b145d",
+        "name": "Save the Device Location",
+        "func": "if (msg.payload == 0) msg.payload = \"실외\";\nif (msg.payload == 1) msg.payload = \"거실\";\nif (msg.payload == 2) msg.payload = \"주방\";\nif (msg.payload == 3) msg.payload = \"Room 1 (Main)\";\nif (msg.payload == 4) msg.payload = \"Room 2\";\nif (msg.payload == 5) msg.payload = \"Room 3\";\nif (msg.payload == 6) msg.payload = \"다용도실\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 780,
+        "wires": [
+            [
+                "2de46ed27007df99"
+            ]
+        ]
+    },
+    {
+        "id": "546dc709f70e962f",
+        "type": "file in",
+        "z": "b646685d075b145d",
+        "name": "",
+        "filename": "/home/pi/room.txt",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 450,
+        "y": 260,
+        "wires": [
+            [
+                "bd3db2c7ebb5bcf2",
+                "74aaa2526eaffa40"
+            ]
+        ]
+    },
+    {
+        "id": "04c70cb632089998",
+        "type": "inject",
+        "z": "b646685d075b145d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 270,
+        "y": 260,
+        "wires": [
+            [
+                "546dc709f70e962f"
+            ]
+        ]
+    },
+    {
+        "id": "f3a9c97cc5ee51e6",
+        "type": "ui_text",
+        "z": "b646685d075b145d",
+        "group": "f5c5fbae.5dd958",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Device Location",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 920,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "2548620c3706bd51",
+        "type": "ui_dropdown",
+        "z": "b646685d075b145d",
+        "name": "",
+        "label": "Device Category",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "5c7cc43a437451d7",
+        "order": 4,
+        "width": 10,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "IAQ Sensor #1",
+                "value": "1",
+                "type": "str"
+            },
+            {
+                "label": "IAQ Sensor #2",
+                "value": "2",
+                "type": "str"
+            },
+            {
+                "label": "IAQ Sensor #3",
+                "value": "3",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 520,
+        "y": 820,
+        "wires": [
+            [
+                "50a62bfe05aec790"
+            ]
+        ]
+    },
+    {
+        "id": "50a62bfe05aec790",
+        "type": "function",
+        "z": "b646685d075b145d",
+        "name": "Save the Device Category",
+        "func": "flow.set('cat',msg.payload);\n\nif (msg.payload == 1) msg.payload = \"IAQ Sensor #1\";\nif (msg.payload == 2) msg.payload = \"IAQ Sensor #2\";\nif (msg.payload == 3) msg.payload = \"IAQ Sensor #3\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 820,
+        "wires": [
+            [
+                "2721d17ed2d2e5be"
+            ]
+        ]
+    },
+    {
+        "id": "2721d17ed2d2e5be",
+        "type": "file",
+        "z": "b646685d075b145d",
+        "name": "",
+        "filename": "/home/pi/category.txt",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1120,
+        "y": 820,
+        "wires": [
+            [
+                "b0921249f8379832"
+            ]
+        ]
+    },
+    {
+        "id": "cea368b6d77e1806",
+        "type": "inject",
+        "z": "b646685d075b145d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 270,
+        "y": 340,
+        "wires": [
+            [
+                "276315190ea2447f"
+            ]
+        ]
+    },
+    {
+        "id": "276315190ea2447f",
+        "type": "file in",
+        "z": "b646685d075b145d",
+        "name": "",
+        "filename": "/home/pi/category.txt",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 460,
+        "y": 340,
+        "wires": [
+            [
+                "71f762d0bb94602d",
+                "13a249759d0bde5c"
+            ]
+        ]
+    },
+    {
+        "id": "6dc195b08b10f73e",
+        "type": "ui_text",
+        "z": "b646685d075b145d",
+        "group": "f5c5fbae.5dd958",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Device Category",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 920,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "cf6eb2bb5a6d0b11",
+        "type": "ui_text",
+        "z": "b646685d075b145d",
+        "group": "354ce296.41d33e",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "CO₂",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1870,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "6db8e5df309b7304",
+        "type": "link out",
+        "z": "b646685d075b145d",
+        "name": "link out 2",
+        "mode": "link",
+        "links": [
+            "f8b847ada94e08ae"
+        ],
+        "x": 1255,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "f8b847ada94e08ae",
+        "type": "link in",
+        "z": "b646685d075b145d",
+        "name": "link in 2",
+        "links": [
+            "6db8e5df309b7304"
+        ],
+        "x": 315,
+        "y": 300,
+        "wires": [
+            [
+                "546dc709f70e962f"
+            ]
+        ]
+    },
+    {
+        "id": "b0921249f8379832",
+        "type": "link out",
+        "z": "b646685d075b145d",
+        "name": "link out 3",
+        "mode": "link",
+        "links": [
+            "84a736920e9b3d74"
+        ],
+        "x": 1255,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "84a736920e9b3d74",
+        "type": "link in",
+        "z": "b646685d075b145d",
+        "name": "link in 3",
+        "links": [
+            "b0921249f8379832"
+        ],
+        "x": 315,
+        "y": 380,
+        "wires": [
+            [
+                "276315190ea2447f"
+            ]
+        ]
+    },
+    {
+        "id": "14fab33652d16038",
+        "type": "comment",
+        "z": "b646685d075b145d",
+        "name": "Device Information",
+        "info": "",
+        "x": 270,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "98b17cd2beba81e3",
+        "type": "comment",
+        "z": "b646685d075b145d",
+        "name": "API Data Location",
+        "info": "",
+        "x": 270,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "af68dc757f3f61af",
+        "type": "comment",
+        "z": "b646685d075b145d",
+        "name": "Dashboard - Indoor Air Quality Sensor (IAQ)",
+        "info": "",
+        "x": 270,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "dd735e551bb6db20",
+        "type": "comment",
+        "z": "b646685d075b145d",
+        "name": "Setup",
+        "info": "",
+        "x": 150,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "bce410be1cb07cca",
+        "type": "link out",
+        "z": "b646685d075b145d",
+        "name": "link out 6",
+        "mode": "link",
+        "links": [
+            "1fb9692187e09bc8"
+        ],
+        "x": 615,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "bd3db2c7ebb5bcf2",
+        "type": "link out",
+        "z": "b646685d075b145d",
+        "name": "link out 7",
+        "mode": "link",
+        "links": [
+            "eb1cd8ab0661312d"
+        ],
+        "x": 615,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "71f762d0bb94602d",
+        "type": "link out",
+        "z": "b646685d075b145d",
+        "name": "link out 8",
+        "mode": "link",
+        "links": [
+            "3195d61c0f7b244d"
+        ],
+        "x": 615,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "1fb9692187e09bc8",
+        "type": "link in",
+        "z": "b646685d075b145d",
+        "name": "link in 6",
+        "links": [
+            "bce410be1cb07cca"
+        ],
+        "x": 185,
+        "y": 740,
+        "wires": [
+            [
+                "add742ea837dec38"
+            ]
+        ]
+    },
+    {
+        "id": "eb1cd8ab0661312d",
+        "type": "link in",
+        "z": "b646685d075b145d",
+        "name": "link in 7",
+        "links": [
+            "bd3db2c7ebb5bcf2"
+        ],
+        "x": 185,
+        "y": 780,
+        "wires": [
+            [
+                "5f846716ab893d6e"
+            ]
+        ]
+    },
+    {
+        "id": "3195d61c0f7b244d",
+        "type": "link in",
+        "z": "b646685d075b145d",
+        "name": "link in 8",
+        "links": [
+            "71f762d0bb94602d"
+        ],
+        "x": 185,
+        "y": 820,
+        "wires": [
+            [
+                "5786533f8a931213"
+            ]
+        ]
+    },
+    {
+        "id": "5f846716ab893d6e",
+        "type": "function",
+        "z": "b646685d075b145d",
+        "name": "Load Device Location",
+        "func": "if (msg.payload == \"실외\") msg.payload = 0;\nif (msg.payload == \"거실\") msg.payload = 1;\nif (msg.payload == \"주방\") msg.payload = 2;\nif (msg.payload == \"Room 1 (Main)\") msg.payload = 3;\nif (msg.payload == \"Room 2\") msg.payload = 4;\nif (msg.payload == \"Room 3\") msg.payload = 5;\nif (msg.payload == \"다용도실\") msg.payload = 6;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 780,
+        "wires": [
+            [
+                "f7f14117967c99bd"
+            ]
+        ]
+    },
+    {
+        "id": "5786533f8a931213",
+        "type": "function",
+        "z": "b646685d075b145d",
+        "name": "Save Device Category",
+        "func": "if (msg.payload == \"IAQ Sensor #1\") msg.payload = 1;\nif (msg.payload == \"IAQ Sensor #2\") msg.payload = 2;\nif (msg.payload == \"IAQ Sensor #3\") msg.payload = 3;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 820,
+        "wires": [
+            [
+                "2548620c3706bd51"
+            ]
+        ]
+    },
+    {
+        "id": "118975587c67c28b",
+        "type": "comment",
+        "z": "b646685d075b145d",
+        "name": "API Data Request",
+        "info": "",
+        "x": 190,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "3c0a242f66f90793",
+        "type": "ui_text",
+        "z": "b646685d075b145d",
+        "group": "6f3a7bf98a375ff5",
+        "order": 4,
+        "width": "6",
+        "height": "1",
+        "name": "",
+        "label": "PM 2.5",
+        "format": "{{msg.payload}} ㎍/㎥",
+        "layout": "row-spread",
+        "className": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200\" />",
+        "x": 1080,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "e15a27f88f595821",
+        "type": "comment",
+        "z": "b646685d075b145d",
+        "name": "Communication with IAQ Board",
+        "info": "",
+        "x": 1270,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "17bc245bb3930fe8",
+        "type": "function",
+        "z": "b646685d075b145d",
+        "name": "CO2_upstream",
+        "func": "var co2 = flow.get('co2')||0;\n\n\nmsg.payload = co2;\n\n\nflow.set('co2',0);\n\n\n\n\nmsg.payload = msg.payload + ' ppm';\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1620,
+        "y": 300,
+        "wires": [
+            [
+                "cf6eb2bb5a6d0b11"
+            ]
+        ]
+    },
+    {
+        "id": "36c42843c784de05",
+        "type": "comment",
+        "z": "b646685d075b145d",
+        "name": "MQTT Out",
+        "info": "",
+        "x": 160,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "d6d973a4b0bd9629",
+        "type": "mqtt in",
+        "z": "b646685d075b145d",
+        "name": "",
+        "topic": "VEGW/AIHousing",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "fd1bb60932fc54a4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 810,
+        "y": 1220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "229cbab1ebd5c26f",
+        "type": "mqtt in",
+        "z": "b646685d075b145d",
+        "name": "",
+        "topic": "IAQSensor/VEGW",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "fd1bb60932fc54a4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 810,
+        "y": 1280,
+        "wires": [
+            [
+                "b725dc63d8f1e659"
+            ]
+        ]
+    },
+    {
+        "id": "325f7bc74ff1f27f",
+        "type": "mqtt out",
+        "z": "b646685d075b145d",
+        "name": "",
+        "topic": "IAQSensor/VEGW",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "fd1bb60932fc54a4",
+        "x": 810,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "b725dc63d8f1e659",
+        "type": "debug",
+        "z": "b646685d075b145d",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "f4c7522f47fef369",
+        "type": "inject",
+        "z": "b646685d075b145d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "30",
+        "topic": "",
+        "payload": "{\"event\":\"0\",\"msg\":{\"rid\":\"1\",\"cat\":\"1\"}}",
+        "payloadType": "json",
+        "x": 250,
+        "y": 1220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6bde4c32a729cc3e",
+        "type": "function",
+        "z": "b646685d075b145d",
+        "name": "Make MQTT Data",
+        "func": "var did = flow.get('did') || \"\";\nvar rid = flow.get('rid')|| \"\";\nvar cat = flow.get('cat')|| \"\";\nvar pm1d0 = flow.get('pm1d0')||0;\nvar pm2d5 = flow.get('pm2d5') || 0;\nvar pm10 = flow.get('pm10') || 0;\nvar temp = flow.get('temp') || 0;\nvar humi = flow.get('humi') || 0;\nvar co2 = flow.get('co2') || 0;\nvar awpm2d5 = flow.get('awpm2d5') || 0;\n\nmsg.payload = {\"did\":did,\"event\":0,\"msg\":{\"rid\":rid,\"cat\":cat,\"pm1d0\":pm1d0/10,\"pm2d5\":pm2d5/10,\"pm10\":pm10/10,\"temp\":temp/10,\"humi\":humi/10,\"co2\":co2,\"awpm2d5\":awpm2d5}};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 1280,
+        "wires": [
+            [
+                "325f7bc74ff1f27f"
+            ]
+        ]
+    },
+    {
+        "id": "68c1f113146cfcb1",
+        "type": "inject",
+        "z": "b646685d075b145d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 270,
+        "y": 1280,
+        "wires": [
+            [
+                "6bde4c32a729cc3e"
+            ]
+        ]
+    },
+    {
+        "id": "6253094d73fa62e2",
+        "type": "function",
+        "z": "b646685d075b145d",
+        "name": "Device ID",
+        "func": "flow.set('did',msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 180,
+        "wires": [
+            [
+                "9aa4f65b0f587a88"
+            ]
+        ]
+    },
+    {
+        "id": "74aaa2526eaffa40",
+        "type": "function",
+        "z": "b646685d075b145d",
+        "name": "Device Location",
+        "func": "if (msg.payload == \"실외\") flow.set('rid',0);\nif (msg.payload == \"거실\") flow.set('rid', 1);\nif (msg.payload == \"주방\") flow.set('rid', 2);\nif (msg.payload == \"Room 1 (Main)\") flow.set('rid', 3);\nif (msg.payload == \"Room 2\") flow.set('rid', 4);\nif (msg.payload == \"Room 3\") flow.set('rid', 5);\nif (msg.payload == \"다용도실\") flow.set('rid', 6);\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 260,
+        "wires": [
+            [
+                "f3a9c97cc5ee51e6"
+            ]
+        ]
+    },
+    {
+        "id": "13a249759d0bde5c",
+        "type": "function",
+        "z": "b646685d075b145d",
+        "name": "Device Category",
+        "func": "if (msg.payload == \"IAQ Sensor #1\") flow.set('cat', 1);\nif (msg.payload == \"IAQ Sensor #2\") flow.set('rid', 2);\nif (msg.payload == \"IAQ Sensor #3\") flow.set('rid', 3);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 340,
+        "wires": [
+            [
+                "6dc195b08b10f73e"
+            ]
+        ]
+    },
+    {
+        "id": "22f10f115e4cee4c",
+        "type": "link out",
+        "z": "b646685d075b145d",
+        "name": "link out 9",
+        "mode": "link",
+        "links": [
+            "1792647782a0cdc9",
+            "65dd07f25f863b52"
+        ],
+        "x": 1255,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "65dd07f25f863b52",
+        "type": "link in",
+        "z": "b646685d075b145d",
+        "name": "link in 4",
+        "links": [
+            "4130ea2a4edb6998",
+            "22f10f115e4cee4c"
+        ],
+        "x": 315,
+        "y": 540,
+        "wires": [
+            [
+                "19aa62e6041336d5"
+            ]
+        ]
+    },
+    {
+        "id": "56061163558d8028",
+        "type": "link in",
+        "z": "b646685d075b145d",
+        "name": "link in 9",
+        "links": [
+            "7d58e9041b699d47"
+        ],
+        "x": 315,
+        "y": 620,
+        "wires": [
+            [
+                "ecdb89652097da49"
+            ]
+        ]
+    },
+    {
+        "id": "7d58e9041b699d47",
+        "type": "link out",
+        "z": "b646685d075b145d",
+        "name": "link out 10",
+        "mode": "link",
+        "links": [
+            "56061163558d8028"
+        ],
+        "x": 1255,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "f68fdb4276514d03",
+        "type": "function",
+        "z": "b646685d075b145d",
+        "name": "측정소",
+        "func": "flow.set('station',msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 580,
+        "wires": [
+            [
+                "79ce19a4dc7b3af3"
+            ]
+        ]
+    },
+    {
+        "id": "a98c7dd21140bc2d",
+        "type": "debug",
+        "z": "b646685d075b145d",
+        "name": "debug 3",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1800,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "779698b8b4583ed8",
+        "type": "inject",
+        "z": "b646685d075b145d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1190,
+        "y": 160,
+        "wires": [
+            [
+                "961a8315519dd71e"
+            ]
+        ]
+    },
+    {
+        "id": "87cfb52fbdcbb5f8",
+        "type": "serial in",
+        "z": "b646685d075b145d",
+        "name": "315IOT_Serial2",
+        "serial": "9befcd9a829eb9e7",
+        "x": 1200,
+        "y": 340,
+        "wires": [
+            [
+                "047ffe3cec3eb198"
+            ]
+        ]
+    },
+    {
+        "id": "047ffe3cec3eb198",
+        "type": "json",
+        "z": "b646685d075b145d",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1390,
+        "y": 340,
+        "wires": [
+            [
+                "4b748d52b7fde3da"
+            ]
+        ]
+    },
+    {
+        "id": "ec32ffa8.3f6f6",
+        "type": "exec",
+        "z": "f0a27113.452c7",
+        "command": "sudo iwlist wlan0 scan | grep ESSID | sed 's/ESSID://g;s/\"//g;s/^ *//;s/ *$//'",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "scan",
+        "x": 430,
+        "y": 80,
+        "wires": [
+            [
+                "e0d66c7a.647c9"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "e0d66c7a.647c9",
+        "type": "function",
+        "z": "f0a27113.452c7",
+        "name": "parseOptions",
+        "func": "var ssids = msg.payload.split('\\n').filter(s => !!s)\n\nssids = [...new Set(ssids)];\n\nmsg.options = ssids\nmsg.payload = null\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 660,
+        "y": 67,
+        "wires": [
+            [
+                "617d9746.cbcbd8"
+            ]
+        ]
+    },
+    {
+        "id": "a44c56bf.408c08",
+        "type": "inject",
+        "z": "f0a27113.452c7",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 270,
+        "y": 221,
+        "wires": [
+            [
+                "ec32ffa8.3f6f6",
+                "80ce12b.e5edff",
+                "9aa43ac5.df3728"
+            ]
+        ]
+    },
+    {
+        "id": "617d9746.cbcbd8",
+        "type": "ui_dropdown",
+        "z": "f0a27113.452c7",
+        "name": "",
+        "label": "Wifi",
+        "tooltip": "",
+        "place": "Select a WIFI",
+        "group": "4d0f060d.dee7e8",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "multiple": false,
+        "options": [],
+        "payload": "",
+        "topic": "",
+        "x": 830,
+        "y": 67,
+        "wires": [
+            [
+                "fc8462e2.6bc6e"
+            ]
+        ]
+    },
+    {
+        "id": "f50dd378.27c7f",
+        "type": "ui_button",
+        "z": "f0a27113.452c7",
+        "name": "",
+        "group": "4d0f060d.dee7e8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Scan",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "find_in_page",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "",
+        "topicType": "str",
+        "x": 230,
+        "y": 181,
+        "wires": [
+            [
+                "ec32ffa8.3f6f6"
+            ]
+        ]
+    },
+    {
+        "id": "49307dfc.36fce4",
+        "type": "ui_ui_control",
+        "z": "f0a27113.452c7",
+        "name": "onTab",
+        "events": "all",
+        "x": 130,
+        "y": 80,
+        "wires": [
+            [
+                "ee0231ae.607de"
+            ]
+        ]
+    },
+    {
+        "id": "ee0231ae.607de",
+        "type": "switch",
+        "z": "f0a27113.452c7",
+        "name": "ifWifi",
+        "property": "name",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Wifi",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 271,
+        "y": 80,
+        "wires": [
+            [
+                "ec32ffa8.3f6f6",
+                "80ce12b.e5edff",
+                "9aa43ac5.df3728"
+            ]
+        ]
+    },
+    {
+        "id": "80ce12b.e5edff",
+        "type": "exec",
+        "z": "f0a27113.452c7",
+        "command": "ifconfig wlan0",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "getInfo",
+        "x": 430,
+        "y": 181,
+        "wires": [
+            [
+                "8a86d9a3.7ccca8"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "8a86d9a3.7ccca8",
+        "type": "function",
+        "z": "f0a27113.452c7",
+        "name": "parseInfo",
+        "func": "var ip = msg.payload.match(/inet ([0-9\\.]+)/)[1]\nvar mask = msg.payload.match(/netmask ([0-9\\.]+)/)[1]\nvar broadcast = msg.payload.match(/broadcast ([0-9\\.]+)/)[1]\n\n\nnode.send({topic: 'ip', payload: ip})\nnode.send({topic: 'mask', payload: mask})\nnode.send({topic: 'broadcast', payload: broadcast})",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 640,
+        "y": 168,
+        "wires": [
+            [
+                "446ce308.eaab1c"
+            ]
+        ]
+    },
+    {
+        "id": "446ce308.eaab1c",
+        "type": "switch",
+        "z": "f0a27113.452c7",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "ip",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "mask",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "broadcast",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 810,
+        "y": 181,
+        "wires": [
+            [
+                "d1ea316d.10c3d"
+            ],
+            [
+                "8cadebd5.bedfe8"
+            ],
+            [
+                "3592ebde.5596b4"
+            ]
+        ]
+    },
+    {
+        "id": "d1ea316d.10c3d",
+        "type": "ui_text",
+        "z": "f0a27113.452c7",
+        "group": "a1e7431b.229d5",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "IP",
+        "format": "{{msg.payload || '---'}}",
+        "layout": "row-spread",
+        "x": 990,
+        "y": 141,
+        "wires": []
+    },
+    {
+        "id": "8cadebd5.bedfe8",
+        "type": "ui_text",
+        "z": "f0a27113.452c7",
+        "group": "a1e7431b.229d5",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Netmask",
+        "format": "{{msg.payload || '---'}}",
+        "layout": "row-spread",
+        "x": 1000,
+        "y": 181,
+        "wires": []
+    },
+    {
+        "id": "3592ebde.5596b4",
+        "type": "ui_text",
+        "z": "f0a27113.452c7",
+        "group": "a1e7431b.229d5",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Broadcast",
+        "format": "{{msg.payload || '---'}}",
+        "layout": "row-spread",
+        "x": 1000,
+        "y": 221,
+        "wires": []
+    },
+    {
+        "id": "4e417c79.0e9454",
+        "type": "ui_form",
+        "z": "f0a27113.452c7",
+        "name": "",
+        "label": "Update",
+        "group": "4d0f060d.dee7e8",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "SSID",
+                "value": "ssid",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Password",
+                "value": "password",
+                "type": "password",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "ssid": "",
+            "password": ""
+        },
+        "payload": "",
+        "submit": "UPDATE",
+        "cancel": "RESET",
+        "topic": "",
+        "x": 1120,
+        "y": 67,
+        "wires": [
+            [
+                "562a8ec7.a7e76"
+            ]
+        ]
+    },
+    {
+        "id": "fc8462e2.6bc6e",
+        "type": "function",
+        "z": "f0a27113.452c7",
+        "name": "",
+        "func": "\nmsg.payload = {ssid: msg.payload}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 970,
+        "y": 67,
+        "wires": [
+            [
+                "4e417c79.0e9454"
+            ]
+        ]
+    },
+    {
+        "id": "562a8ec7.a7e76",
+        "type": "function",
+        "z": "f0a27113.452c7",
+        "name": "getPassphrase",
+        "func": "var data = msg.payload\n\nvar command = `wpa_passphrase \"${data.ssid}\" \"${data.password}\" | sed '/#psk=\".*\"/d'`\n \nmsg.payload = command\n\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1320,
+        "y": 67,
+        "wires": [
+            [
+                "50f3b384.d92f4c"
+            ]
+        ]
+    },
+    {
+        "id": "50f3b384.d92f4c",
+        "type": "exec",
+        "z": "f0a27113.452c7",
+        "command": "",
+        "addpay": true,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "",
+        "x": 1481,
+        "y": 67,
+        "wires": [
+            [
+                "201a9fb.244ff6"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "201a9fb.244ff6",
+        "type": "function",
+        "z": "f0a27113.452c7",
+        "name": "updateWpasupplicant",
+        "func": "var template = `sudo tee /etc/wpa_supplicant/wpa_supplicant.conf <<EOF\nctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev\nupdate_config=1\ncountry=IT\n\n${msg.payload}\nEOF\\n\n`\n\nmsg.payload = template\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1680,
+        "y": 60,
+        "wires": [
+            [
+                "d288a86d.e0ba48"
+            ]
+        ]
+    },
+    {
+        "id": "d288a86d.e0ba48",
+        "type": "exec",
+        "z": "f0a27113.452c7",
+        "command": "",
+        "addpay": true,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "updateConf",
+        "x": 1270,
+        "y": 180,
+        "wires": [
+            [
+                "ecc743df.05dd"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "ecc743df.05dd",
+        "type": "exec",
+        "z": "f0a27113.452c7",
+        "command": "sudo wpa_cli -i wlan0 reconfigure",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "reconfigure",
+        "x": 1450,
+        "y": 167,
+        "wires": [
+            [
+                "2e12d3e8.51947c"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "2e12d3e8.51947c",
+        "type": "function",
+        "z": "f0a27113.452c7",
+        "name": "showMessage",
+        "func": "\nmsg.payload = msg.payload.trim() === 'OK' ? \"Wifi configuration updated successfully\" : \"Error while updating wifi configuration\"\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1650,
+        "y": 154,
+        "wires": [
+            [
+                "aa9d6712.91e718"
+            ]
+        ]
+    },
+    {
+        "id": "aa9d6712.91e718",
+        "type": "ui_toast",
+        "z": "f0a27113.452c7",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "",
+        "x": 1720,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "9aa43ac5.df3728",
+        "type": "exec",
+        "z": "f0a27113.452c7",
+        "command": "iwgetid",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "getCurrentSSID",
+        "x": 460,
+        "y": 260,
+        "wires": [
+            [
+                "6cff487b.f73b08"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "4e1b74b8.84f51c",
+        "type": "ui_text",
+        "z": "f0a27113.452c7",
+        "group": "a1e7431b.229d5",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "SSID",
+        "format": "{{msg.payload || '---'}}",
+        "layout": "row-spread",
+        "x": 810,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "6cff487b.f73b08",
+        "type": "function",
+        "z": "f0a27113.452c7",
+        "name": "parseInfo",
+        "func": "var ssid = msg.payload.match(/ESSID:\"([^\"]+)\"/)[1]\n\n\nnode.send({topic: 'ssid', payload: ssid})\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 640,
+        "y": 247,
+        "wires": [
+            [
+                "4e1b74b8.84f51c"
+            ]
+        ]
+    },
+    {
+        "id": "d4e866c7.6c3958",
+        "type": "ui_button",
+        "z": "f0a27113.452c7",
+        "name": "",
+        "group": "a1e7431b.229d5",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "passthru": false,
+        "label": "Wifi Status",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "wifi",
+        "payload": "Menu",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 150,
+        "y": 340,
+        "wires": [
+            [
+                "49307dfc.36fce4"
+            ]
+        ]
+    }
+]
